@@ -30,7 +30,7 @@
         },
         "laravel": {
             "providers": [
-                "Barryvdh\\Debugbar\\ServiceProvider"
+                "KDuma\\CoinHive\\Laravel\\CoinHiveServiceProvider"
             ]
         }
     },
