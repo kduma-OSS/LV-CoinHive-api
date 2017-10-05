@@ -1,0 +1,42 @@
+{
+    "name": "kduma/coinhive-api",
+    "type": "library",
+    "description": "PHP and Laravel 5 CoinHive API and Captcha",
+    "keywords": [
+        "KDuma",
+        "Laravel",
+        "CoinHive"
+    ],
+    "homepage": "https://github.com/kduma-OSS/L5-CoinHiveApi",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Krystian Duma",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~7.0",
+        "kitetail/zttp": "^0.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KDuma\\CoinHive\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Barryvdh\\Debugbar\\ServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
