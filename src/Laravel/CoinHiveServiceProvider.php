@@ -41,7 +41,7 @@ class CoinHiveServiceProvider extends ServiceProvider
             return new CoinHiveApi(config('services.coinhive.site_key'), config('services.coinhive.secret_key'));
         });
         $this->app->singleton(CoinHiveCaptchaDisplayer::class, function ($app) {
-            return new CoinHiveCaptchaDisplayer(config('services.coinhive.site_key'), config('services.coinhive.default_hashes'));
+            return new CoinHiveCaptchaDisplayer(config('services.coinhive.site_key'), config('services.coinhive.default_hashes'), config('services.coinhive.use_authedmine_url', true));
         });
     }
 }
