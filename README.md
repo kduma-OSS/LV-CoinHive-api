@@ -1,3 +1,8 @@
+# Package EOL
+
+This package is archived because of [discontinuation of CoinHive](https://coinhive.com/blog/en/discontinuation-of-coinhive).
+
+
 # PHP and Laravel 5 CoinHive API and Captcha
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
